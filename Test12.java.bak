@@ -1,0 +1,14 @@
+class Test12
+{
+	public static void main(String[] args) 
+	{
+		Test12 d = new Test12();
+		d.d1();
+		
+	}
+         public void d1();
+	{
+		System.out.println("Saya bow bow !!");
+
+	}
+}

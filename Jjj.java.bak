@@ -1,0 +1,12 @@
+class  Jjj
+{   final int i = 10;
+		  int i = 2;
+	public static void main(String[] args) 
+	{	
+
+		Jjj t1 = new Jjj();
+		Jjj t2 = new Jjj();
+		System.out.println(t1.i);
+		System.out.println(t2.i);
+	}
+}

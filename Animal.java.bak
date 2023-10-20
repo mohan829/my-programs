@@ -1,0 +1,14 @@
+class Animal 
+{
+	public static void main(String[] args) 
+	{
+		Animal d = new Animal();
+		d.dog();
+		
+	}
+         public void dog();
+	{
+		System.out.println("Saya bow bow !!");
+
+	}
+}

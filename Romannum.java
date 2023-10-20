@@ -1,0 +1,41 @@
+import java.util.Scanner;
+class Romannum 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Roman Number:");
+		char ch = sc.next().charAt(0);
+		if (ch=='V')
+		{
+			System.out.println(5);
+		}
+		else if (ch=='I')
+		{
+			System.out.println(1);
+		}
+		else if (ch=='X')
+		{
+			System.out.println(10);
+		}
+		else if (ch=='M')
+		{
+			System.out.println(1000);
+		}
+		else if (ch=='D')
+		{
+			System.out.println(500);
+		}
+		else if (ch=='L')
+		{
+			System.out.println(50);
+		}
+		else if (ch=='C')
+		{
+			System.out.println(100);
+		}
+		else{
+			System.out.println("OOPs...We have limited values:");
+		}
+	}
+}

@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class Santhosh 
+{
+	public static void main(String[] args) 
+	{  
+		//int sum = 0;
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter name : ");
+		String nm = sc.next();
+		System.out.println("Enter your ID : ");
+		int id = sc.nextInt();
+		System.out.println("Enter persent amount:");
+		long sa = sc.nextLong();
+		System.out.println("Enter amount to send:");
+		long am = sc.nextLong();
+		System.out.println("Your Name is : "+nm);
+		System.out.println("Your id is : "+id);
+		System.out.println("Amount available B4 Sending: "+sa);
+		System.out.println("Amount to send : "+am);
+		if (sa<am)
+		{
+			System.out.println("u do not have suff blc:");
+			
+		}
+		
+		else{
+				System.out.println("remaining amount is :"+(sa-am));
+			}
+         
+		// System.out.println("Total balance available is "+sum);
+	}
+}

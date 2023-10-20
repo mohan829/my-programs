@@ -1,0 +1,13 @@
+class Equals 
+{
+	public static void main(String[] args) 
+	{
+		int s1= "sathwik";
+		int s2="sathwik";
+		if (s1.equals(s2))
+		{
+				System.out.println("Both are equall");
+		}
+	
+	}
+}

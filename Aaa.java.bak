@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class Aaa 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int n =sc.nextInt();
+		int a=1;
+		System.out.println("Enter the value of b");
+		int b=sc.nextInt();
+		System.out.println("Enter he value of c");
+		int c=sc.nextInt();
+		
+		do
+		{
+			do
+		{
+			System.out.println(n+"*"+a+"="+n*a);
+			a++;
+		}
+		while (a<=10);
+		
+		c++;
+		}
+		while (c>b);
+	}
+}
